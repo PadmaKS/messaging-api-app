@@ -11,9 +11,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @SpringBootApplication
 public class MessagingApiAppApplication {
 	@GetMapping("weekend")
-	public void printGreetings()
+	public String printGreetings()
 	{
-		System.out.println("Hi Oracle!");
+		return("hi oracle!!!");
 	}
 
 	public static void main(String[] args) {
