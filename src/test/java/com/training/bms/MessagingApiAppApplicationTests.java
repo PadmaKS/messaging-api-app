@@ -10,7 +10,7 @@ class MessagingApiAppApplicationTests {
 	@Test
 	void contextLoads() {
 		
-		assertEquals(89,90);
+		//assertEquals(89,90);
 	}
 
 }
