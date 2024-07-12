@@ -15,7 +15,7 @@ public class MessagingApiAppApplication {
 	@GetMapping("weekend")
 	public String printGreetings()
 	{
-		return("hi oracle!!!");
+		return("hi oracle!!!watsup??");
 	}
 
 	public static void main(String[] args) {
